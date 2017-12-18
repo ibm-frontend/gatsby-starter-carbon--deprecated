@@ -57,3 +57,6 @@ public/
 
 # Bundle stats
 bundle-stats.json
+
+# IDE files
+.vscode
