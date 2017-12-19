@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-// import Card from "react-md/lib/Cards/Card";
-// import CardText from "react-md/lib/Cards/CardText";
 import { Tile } from "carbon-components-react/lib/components/Tile";
 import UserLinks from "../UserLinks/UserLinks";
 import config from "../../../data/SiteConfig";
