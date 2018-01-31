@@ -47,7 +47,6 @@ jspm_packages
 # Yarn Integrity file
 .yarn-integrity
 
-
 # Build Files
 public/
 .cache/
@@ -60,3 +59,6 @@ bundle-stats.json
 
 # IDE files
 .vscode
+
+# OS files
+.DS_Store
