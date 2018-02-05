@@ -5,6 +5,9 @@
   "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
   "dependencies": {
     "babel-plugin-lodash": "^3.2.11",
+    "carbon-components": "^8.1.14",
+    "carbon-components-react": "^5.1.1",
+    "carbon-icons": "^6.2.0",
     "font-awesome": "^4.7.0",
     "gatsby": "^1.8.11",
     "gatsby-link": "^1.6.7",
