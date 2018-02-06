@@ -15,3 +15,5 @@ body {
 @import 'theme.scss';
 
 @include react-md-everything;
+
+@import '~carbon-components/scss/globals/scss/styles';
