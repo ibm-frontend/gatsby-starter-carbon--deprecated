@@ -1,9 +1,9 @@
-@import '../../layouts/theme.scss';
+@import '~carbon-components/scss/globals/scss/styles';
 
 .footer {
     justify-content: center;
     align-content: center;
-    background-color: $md-primary-color;
+    background-color: $color__blue-90;
     padding: 10px 5px 5px;
 
     .notice-container {
@@ -45,7 +45,7 @@
         }
 
         h4 {
-            color: $md-secondary-color;
+            color: $color__white;
             text-align: center;
             margin: 0;
         }

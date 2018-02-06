@@ -10,10 +10,10 @@ body {
     margin: 0;
 }
 
+@import '~carbon-components/scss/globals/scss/styles';
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700|Material+Icons');
 @import '~react-md/src/scss/react-md';
 @import 'theme.scss';
 
 @include react-md-everything;
 
-@import '~carbon-components/scss/globals/scss/styles';

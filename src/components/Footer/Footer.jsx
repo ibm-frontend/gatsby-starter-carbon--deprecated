@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Button from "react-md/lib/Buttons";
+import { Button } from 'carbon-components-react';
 import Link from "gatsby-link";
 import UserLinks from "../UserLinks/UserLinks";
 import config from "../../../data/SiteConfig";
@@ -26,7 +26,7 @@ class Footer extends Component {
 
           <div className="rss">
             <Link to={url}>
-              <Button flat secondary iconClassName="fa fa-rss">
+              <Button type="link">
                 Subscribe
               </Button>
             </Link>
