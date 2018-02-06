@@ -26,5 +26,5 @@ module.exports = {
       iconClassName: "fa fa-twitter"
     },
   ],
-  copyright: "Copyright © 2017. Carbon Components User", // Copyright string for the footer of the website.
+  copyright: "Copyright © 2018. Carbon Components User", // Copyright string for the footer of the website.
 };
