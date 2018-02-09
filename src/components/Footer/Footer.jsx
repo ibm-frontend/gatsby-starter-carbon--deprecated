@@ -34,8 +34,8 @@ class Footer extends Component {
           <div className="based-on">
             <h4>
               Based on{" "}
-              <a href="https://github.com/Vagr9K/gatsby-material-starter">
-                Gatsby Material Starter
+              <a href="https://github.com/ibm-frontend/gatsby-starter-carbon/">
+                Gatsby Carbon Starter
               </a>.
             </h4>
           </div>
