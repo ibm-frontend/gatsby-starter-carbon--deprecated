@@ -4,9 +4,10 @@
 
   &__avatar-container {
     text-align: center;
-    margin-bottom: 1em;
   }
   &__avatar {
+    display: block;
+    margin: 0 auto 1em auto;
     border-radius: 50%;
   }
 }
