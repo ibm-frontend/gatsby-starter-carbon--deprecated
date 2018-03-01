@@ -17,7 +17,7 @@ module.exports = {
   userLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/https://github.com/ibm-frontend/",
+      url: "https://github.com/ibm-frontend/",
       iconClassName: "fa fa-github"
     },
     {
