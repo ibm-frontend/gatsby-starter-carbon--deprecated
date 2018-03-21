@@ -1,30 +1,21 @@
 import React, { Component } from "react";
-import NavigationDrawer from "react-md/lib/NavigationDrawers";
-import ToolbarActions from "../ToolbarActions/ToolbarActions";
-import Footer from "../Footer/Footer";
-import GetNavList from "./NavList";
+
+import Header from '../Header/Header';
+import LeftNav from '../LeftNav/LeftNav';
+
 import "./Navigation.scss";
 
 class Navigation extends Component {
   render() {
-    const { children, config, LocalTitle } = this.props;
-    const footerLinks = LocalTitle !== "About";
+    const { children, config } = this.props;
     return (
-      <NavigationDrawer
-        drawerTitle={config.siteTitle}
-        toolbarTitle={LocalTitle}
-        contentClassName="main-content"
-        navItems={GetNavList(config)}
-        mobileDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
-        tabletDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
-        desktopDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
-        toolbarActions={<ToolbarActions config={config} />}
-      >
-        <div className="main-container">
+      <div className="main-container">
+        <Header config={config} />
+        <div className="main-content">
+          <LeftNav />
           {children}
         </div>
-        <Footer userLinks={footerLinks} />
-      </NavigationDrawer>
+      </div> 
     );
   }
 }

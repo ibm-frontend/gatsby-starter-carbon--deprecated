@@ -1,9 +1,10 @@
 @import '~react-md/src/scss/react-md';
+@import '~carbon-components/scss/globals/scss/styles';
 $md-primary-color: $md-grey-400;
 $md-secondary-color: $md-red-800;
 $md-tertiary-color: $md-grey-300;
 
 .main-container,
 .darker-background {
-    background-color: $md-tertiary-color;
+    background-color: $ui-02;
 }
