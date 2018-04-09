@@ -1,61 +1,23 @@
-@import '../../layouts/theme.scss';
+@import '~carbon-components/scss/globals/scss/styles';
 
 .footer {
-    justify-content: center;
-    align-content: center;
-    background-color: $md-primary-color;
-    padding: 10px 5px 5px;
+  background-color: $ui-02;
+  color: $text-02;
+  font-size: 0.875rem;
 
-    .notice-container {
-        display: flex;
-        align-content: center;
-        align-items: center;
-        margin-top: 25px;
+  &__container {
+    box-sizing: border-box;
+    padding: 1em 1.5em;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
 
-        .copyright {
-            display: flex;
-            flex: 1;
-            justify-content: flex-start;
+  &__left {
+    text-align: left;
+  }
 
-            @media (max-width: 640px - 1px) {
-                justify-content: center;
-            }
-        }
-
-        .rss {
-            display: flex;
-
-            @media (max-width: 640px - 1px) {
-                display: none;
-            }
-
-            flex: 1;
-            justify-content: center;
-        }
-
-        .based-on {
-            display: flex;
-
-            @media (max-width: 640px - 1px) {
-                display: none;
-            }
-
-            flex: 1;
-            justify-content: flex-end;
-        }
-
-        h4 {
-            color: $md-secondary-color;
-            text-align: center;
-            margin: 0;
-        }
-    }
-}
-
-.footer-fixed {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 15;
+  &__right {
+    text-align: right;
+  }
 }

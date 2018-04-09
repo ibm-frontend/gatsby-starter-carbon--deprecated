@@ -7,7 +7,7 @@ class UserLinks extends Component {
     const { userLinks } = this.props.config;
     const { labeled } = this.props;
     return userLinks.map(link =>
-      <Button
+      (<Button
         icon={!labeled}
         flat={labeled}
         secondary
@@ -16,7 +16,7 @@ class UserLinks extends Component {
         href={link.url}
       >
         {labeled ? link.label : ""}
-      </Button>
+      </Button>)
     );
   }
   render() {
