@@ -17,7 +17,7 @@ module.exports = {
   userLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/https://github.com/ibm-frontend/",
+      url: "https://github.com/ibm-frontend/",
       iconClassName: "fa fa-github"
     },
     {
@@ -26,5 +26,5 @@ module.exports = {
       iconClassName: "fa fa-twitter"
     },
   ],
-  copyright: "Copyright © 2018. Carbon Components User", // Copyright string for the footer of the website.
+  copyright: "Copyright © 2018. Carbon Components User.", // Copyright string for the footer of the website.
 };
