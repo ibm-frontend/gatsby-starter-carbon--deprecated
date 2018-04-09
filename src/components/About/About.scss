@@ -1,25 +1,13 @@
-.about-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.about {
+  max-width: 40em;
+  margin: 2em auto;
 
-    .about-img {
-        border-radius: 50%;
-        width: 300px;
-        height: 300px;
-        margin: 10px 0;
-
-        @media (max-width: 360px - 1px) {
-            padding: 20px;
-        }
-    }
-
-    .about-text {
-        max-width: 640px;
-        margin: 20px 0 !important;
-
-        @media (max-width: 360px - 1px) {
-            margin: 5px 0 !important;
-        }
-    }
+  &__avatar-container {
+    text-align: center;
+  }
+  &__avatar {
+    display: block;
+    margin: 0 auto 1em auto;
+    border-radius: 50%;
+  }
 }
