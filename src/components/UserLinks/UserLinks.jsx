@@ -1,35 +1,22 @@
-import React, { Component } from "react";
-import Button from "react-md/lib/Buttons";
+import React from "react";
+import { Link } from "carbon-components-react";
 import "./UserLinks.scss";
 
-class UserLinks extends Component {
-  getLinkElements() {
-    const { userLinks } = this.props.config;
-    const { labeled } = this.props;
-    return userLinks.map(link =>
-      (<Button
-        icon={!labeled}
-        flat={labeled}
-        secondary
-        key={link.label}
-        iconClassName={link.iconClassName}
-        href={link.url}
-      >
-        {labeled ? link.label : ""}
-      </Button>)
-    );
+const UserLinks = (props) => {
+  const { labeled } = props;
+  const { userLinks } = props.config;
+  if (!userLinks) {
+    return null;
   }
-  render() {
-    const { userLinks } = this.props.config;
-    if (!userLinks) {
-      return null;
-    }
-    return (
-      <div className="user-links">
-        {this.getLinkElements()}
-      </div>
-    );
-  }
+  return (
+    <div className="user-links">
+      {userLinks.map(link =>
+        (<Link href={link.url} className="user-links__link">
+          <i className={link.iconClassName} /> {labeled ? link.label : ""}
+        </Link>)
+      )}
+    </div>
+  );
 }
 
 export default UserLinks;

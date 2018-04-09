@@ -1,7 +1,17 @@
 .user-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
+  font-size: 1rem;
+
+  & &__link {
+    font-size: inherit;
+    text-decoration: none;
+    margin-right: 1em;
+
+    &:last-of-type {
+      margin-right: auto;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
