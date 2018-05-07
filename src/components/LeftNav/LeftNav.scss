@@ -1,11 +1,11 @@
 .bx--interior-left-nav {
   top: 3.125rem !important; // Override to give it full height
 
-  &+ div {
+  &~ * {
       margin-left: 12.5rem; // Lets the content react to nav collapse
   }
 
-  &--collapsed + div {
+  &--collapsed ~ * {
       margin-left: 3rem; // Lets the content react to nav collapse
   }
 }
