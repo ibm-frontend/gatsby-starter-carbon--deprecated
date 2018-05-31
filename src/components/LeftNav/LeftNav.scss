@@ -1,0 +1,15 @@
+.bx--interior-left-nav {
+  top: 3.125rem !important; // Override to give it full height
+
+  &~ * {
+      margin-left: 12.5rem; // Lets the content react to nav collapse
+  }
+
+  &--collapsed ~ * {
+      margin-left: 3rem; // Lets the content react to nav collapse
+  }
+}
+
+.bx--interior-left-nav--collapseable .bx--interior-left-nav-collapse {
+  margin-bottom: 3.125rem !important; // Override to give it full height
+}

@@ -13,7 +13,7 @@ module.exports = {
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
   userDescription:
     "Lorem ipsum dolor amet celiac unicorn air plant you probably haven't heard of them. Occupy cornhole swag trust fund lo-fi cardigan lumbersexual dreamcatcher raclette franzen. Bushwick polaroid portland crucifix deep v shoreditch aesthetic. Hella try-hard echo park semiotics. Sartorial normcore retro vaporware selvage before they sold out wayfarers.", // User description to display in the author segment.
-  // Links to social profiles/projects you want to display in the author segment/navigation bar.
+  // Links to social profiles/projects you want to display in the author segment/header.
   userLinks: [
     {
       label: "GitHub",

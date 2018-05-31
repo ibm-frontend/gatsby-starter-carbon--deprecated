@@ -1,0 +1,33 @@
+.header {
+  align-items: center;
+  background-color: #152935;
+  display: flex;
+  height: 3.125rem; 
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+
+  a {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+      color: #5aaafa;
+    }
+  }
+
+  &__title {
+    font-size: 1.125rem;
+  }
+
+  &__user-links {
+    a {
+      font-size: 1.5rem;
+      padding: 1rem;
+    }
+  }
+}
